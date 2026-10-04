@@ -73,6 +73,10 @@ program
       {
         source: path.join(templateDir, 'sample.txt'),
         destination: path.join(targetDir, 'workspaces', 'sample.txt')
+      },
+      {
+        source: path.join(templateDir, 'PROJECT_README.md'),
+        destination: path.join(targetDir, 'README.md')
       }
     ];
 
